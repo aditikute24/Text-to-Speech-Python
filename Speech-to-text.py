@@ -45,10 +45,10 @@ def Exit():
 def Reset():
     Msg.set("")
 
-# Buttons
-Button(root, text="PLAY", font='Helvetica 15 bold', command=Text_to_speech, width=4).place(x=25, y=140)
-Button(root, text='EXIT', font='Helvetica 15 bold', command=Exit, bg='OrangeRed1').place(x=100, y=140)
-Button(root, text='RESET', font='Helvetica 15 bold', command=Reset).place(x=175, y=140)
+# Buttons with updated colors and text
+Button(root, text="SPEAK", font='Helvetica 15 bold', command=Text_to_speech, width=6, bg='green', fg='white').place(x=25, y=140)
+Button(root, text='CLOSE', font='Helvetica 15 bold', command=Exit, bg='red', fg='white').place(x=120, y=140)
+Button(root, text='CLEAR', font='Helvetica 15 bold', command=Reset, bg='blue', fg='white').place(x=225, y=140)
 
 # infinite loop to run program
 root.mainloop()
