@@ -53,7 +53,7 @@ This is a simple Python application that converts text to speech using the `pytt
 **Button Appearance:** The colors and text on the buttons can be easily customized by changing the parameters in the Button function.
 
 <p align="center">
-  <img src="(https://github.com/user-attachments/assets/420e9b9b-393a-4ef4-90fe-4ca172e97c06" alt="Text-to-Speech GUI" style="border: 2px solid black;">
+  <img src="https://github.com/user-attachments/assets/420e9b9b-393a-4ef4-90fe-4ca172e97c06" alt="Text-to-Speech GUI" style="border: 2px solid black;">
 </p>
 
 
